@@ -11,7 +11,7 @@ const Middle = () => {
   {/* <Center w='100px' bg='green.500'>
   <Text>Box 1</Text>
 </Center> */}
-<Box boxShadow='rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px'  mt='10' ml='10' p='10' borderRadius='10' textAlign='center'>
+<Box boxShadow='rgba(0, 0, 0, 0.24) 0px 3px 8px;'  mt='10' ml='40' p='10' borderRadius='10' textAlign='center'>
 <h3 >Fully Managed</h3>
 <h3> Communities By Tripvillas</h3>
 <SimpleGrid columns={2} spacing={10} mt='15'>
