@@ -1,11 +1,11 @@
-import { Box, Center, Flex, Image, SimpleGrid, Square, Text } from '@chakra-ui/react'
+import { Box, Flex, Image, SimpleGrid, Square, Text } from '@chakra-ui/react'
 import '../styles/header.css'
 
 
 
 import React from 'react'
 
-const Middle = () => {
+const Middlepage = () => {
   return (
 <Flex>
   {/* <Center w='100px' bg='green.500'>
@@ -79,7 +79,7 @@ const Middle = () => {
   )
 }
 
-export default Middle
+export default Middlepage
 
 
 
