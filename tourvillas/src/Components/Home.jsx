@@ -3,6 +3,7 @@ import React from 'react'
 import Header from './Header'
 import Middle from './Middle'
 import Navbar from './Navbar'
+import Sliderr from './Sliderr'
 
 
 const Home = () => {
@@ -11,8 +12,9 @@ const Home = () => {
 <>
 <Navbar/>
 <Header/>
+<Sliderr/>
 
-{/* <Middle/> */}
+<Middle/>
 
 
 </>
