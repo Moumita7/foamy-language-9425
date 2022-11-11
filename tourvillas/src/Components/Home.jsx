@@ -1,8 +1,12 @@
 // import { Container } from '@chakra-ui/react'
 import React from 'react'
 import Header from './Header'
-import Middle from './Middle'
+import HomeFooter from './HomeFooter'
+import Maintwo from './Maintwo'
+import Middlepage from './Middlepage'
 import Navbar from './Navbar'
+import Sliderr from './Sliderr'
+import Slidertwo from './Slidertwo'
 
 
 const Home = () => {
@@ -12,7 +16,7 @@ const Home = () => {
 <Navbar/>
 <Header/>
 
-<Middle/>
+{/* <Middle/> */}
 
 
 </>
