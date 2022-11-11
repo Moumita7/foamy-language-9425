@@ -15,8 +15,12 @@ const Home = () => {
 <>
 <Navbar/>
 <Header/>
+<Sliderr/>
+<Middlepage/>
+<Maintwo/>
+<Slidertwo/>
+<HomeFooter/>
 
-{/* <Middle/> */}
 
 
 </>
