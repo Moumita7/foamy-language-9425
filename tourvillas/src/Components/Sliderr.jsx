@@ -2,11 +2,21 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { Navigate } from "react-router-dom";
+
 
 import "../styles/header.css"
+// import { Link } from "react-router-dom";
 
 
 const Sliderr = () => {
+
+  const handleclick=()=>{
+// console.log("jbhb")
+<Navigate to="/holydayhome"/>
+
+  }
+
   const settings = {
           className: "center",
           centerMode: true,
@@ -23,7 +33,10 @@ const Sliderr = () => {
               <div className="card">
               <div>
                <img className="imgg" width="100%" height='200px' src="https://res.klook.com/image/upload/fl_lossy.progressive,w_800,c_fill,q_85/Mobile/City/o7zyedk7po4liguigvzs.jpg" alt='df'/>
-               <h2 className="textt">Goa Holiday Homes</h2>
+               <h2 className="textt" onClick={handleclick}>dwsdfwsfeGoa Holiday Homes</h2>
+               {/* <h2 className="textt"><Link to={`/holydayhome`}>Show more details</Link></h2> */}
+
+             
               </div>
               </div>
               <div className="card">
