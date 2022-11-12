@@ -1,14 +1,13 @@
 
 import './App.css';
 // import Home from './Components/Home';
-import AllRoutes from './Routes/AllRoutes';
+import AllRoutes from './Routes/AllRoutees';
 
 
 function App() {
   return (
     <div className='App'>
      {/* <Home/> */}
-     {/* <h3>jhkj</h3> */}
      <AllRoutes/>
     </div>
 

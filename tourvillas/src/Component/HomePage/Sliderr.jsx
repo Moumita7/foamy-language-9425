@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import { Navigate } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 
 
 import "../styles/header.css"
@@ -31,6 +31,7 @@ const Sliderr = () => {
          
             <Slider {...settings}>
               <div className="card">
+              <Link to="/holiday">
               <div>
                <img className="imgg" width="100%" height='200px' src="https://res.klook.com/image/upload/fl_lossy.progressive,w_800,c_fill,q_85/Mobile/City/o7zyedk7po4liguigvzs.jpg" alt='df'/>
                <h2 className="textt" onClick={handleclick}>dwsdfwsfeGoa Holiday Homes</h2>
@@ -38,6 +39,7 @@ const Sliderr = () => {
 
              
               </div>
+              </Link>
               </div>
               <div className="card">
               <div>

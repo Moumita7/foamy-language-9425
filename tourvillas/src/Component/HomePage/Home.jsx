@@ -1,7 +1,17 @@
+// import React from 'react'
+
+// const Home = () => {
+//   return (
+//     <div>Home page</div>
+//   )
+// }
+
+// export default Home
+
 // import { Container } from '@chakra-ui/react'
 import React from 'react'
 // import { Carasol } from './Carasol'
-import Header from './Header'
+import Header from "./Header"
 import HomeFooter from './HomeFooter'
 import Maintwo from './Maintwo'
 import Middlepage from './Middlepage'

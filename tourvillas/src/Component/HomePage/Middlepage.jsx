@@ -80,6 +80,3 @@ const Middlepage = () => {
 }
 
 export default Middlepage
-
-
-
