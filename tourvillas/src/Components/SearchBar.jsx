@@ -15,7 +15,7 @@ const SearchBar = () => {
       children={<BsSearch color='gray.300'  />}
     />
     <Input type='text' p={10} placeholder='Location'ml={20}  border='none' />
-    <Input type="date" placeholder='Check in' border='none'/>
+    <Input type="date" placeholder='Check in'  border='none'/>
     <Input type="date" placeholder='Check out' border='none'/>
     <FormControl>
 
