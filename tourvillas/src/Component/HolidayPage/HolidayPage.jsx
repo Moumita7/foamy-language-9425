@@ -5,6 +5,10 @@ import Slider from "react-slick";
 import axios from "axios";
 import "../styles/homeSearchStyles.css"
 import "../styles/holidaySearch.css"
+import "../styles/HoliDay.css"
+import { Link } from 'react-router-dom';
+// import GoogleMap from './GoogleMap';
+// import GoogleMap1 from "./GoogleMap"
 
 
 
@@ -45,9 +49,13 @@ const HolidayPage = () => {
 
 
   return (
-    <>
+    <div className='holi'>
         <Navbar/>
+        <div className='serch'>
+        <div>
         <SearchBar/>
+        </div>
+        </div>
        <div style={{ marginTop: "150px" }}>
         <div
           style={{
@@ -61,7 +69,7 @@ const HolidayPage = () => {
           {text2.map((item, index) => (
             <div>
               <div className="bg-image22">
-                {/* <Link to={`/${item._id}/alor`}> */}
+                <Link to={`/${item._id}/holiday`}>
                   <img
                     src={item.hotImg1}
                     style={{
@@ -70,8 +78,8 @@ const HolidayPage = () => {
                     }}
                     alt=""
                   />
-                {/* </Link> */}
-                <h5>Ref id #{item._id}</h5>
+                </Link>
+                <h5 style={{ marginTop: "10px" }}>Ref id #{item._id}</h5>
                 <h4 className="bg-text22" style={{ marginTop: "-10px" }}>
                   {item.topTitle} <br />
                   <a
@@ -97,11 +105,12 @@ const HolidayPage = () => {
       </div>
 
        {/* <GoogleMap1 /> */}
+       {/* <GoogleMap/> */}
    {/* </div> */}
 
 
 
-    </>
+    </div>
   )
 }
 

@@ -34,7 +34,7 @@ const Sliderr = () => {
               <Link to="/holiday">
               <div>
                <img className="imgg" width="100%" height='200px' src="https://res.klook.com/image/upload/fl_lossy.progressive,w_800,c_fill,q_85/Mobile/City/o7zyedk7po4liguigvzs.jpg" alt='df'/>
-               <h2 className="textt" onClick={handleclick}>dwsdfwsfeGoa Holiday Homes</h2>
+               <h2 className="textt" onClick={handleclick}>Goa Holiday Homes</h2>
                {/* <h2 className="textt"><Link to={`/holydayhome`}>Show more details</Link></h2> */}
 
              
@@ -55,20 +55,20 @@ const Sliderr = () => {
               </div>
               <div className="card">
               <div>
-               <img className="imgg" width="100%" height='200px' src="https://res.klook.com/image/upload/fl_lossy.progressive,w_800,c_fill,q_85/Mobile/City/o7zyedk7po4liguigvzs.jpg" alt='df'/>
-               <h2 className="textt">Goa Holiday Homes</h2>
+               <img className="imgg" width="100%" height='200px' src="https://static.toiimg.com/photo/58475411.cms" alt='df'/>
+               <h2 className="textt">Kolkata Holiday Homes</h2>
               </div>
               </div>
               <div className="card">
               <div>
                <img className="imgg" width="100%" height='200px' src="https://res.klook.com/image/upload/fl_lossy.progressive,w_800,c_fill,q_85/Mobile/City/o7zyedk7po4liguigvzs.jpg" alt='df'/>
-               <h2 className="textt">Goa Holiday Homes</h2>
+               <h2 className="textt">Mumbai Holiday Homes</h2>
               </div>
               </div>
               <div className="card">
               <div>
                <img className="imgg" width="100%" height='200px' src="https://res.klook.com/image/upload/fl_lossy.progressive,w_800,c_fill,q_85/Mobile/City/o7zyedk7po4liguigvzs.jpg" alt='df'/>
-               <h2 className="textt">Goa Holiday Homes</h2>
+               <h2 className="textt">Patna Holiday Homes</h2>
               </div>
               </div>
             </Slider>

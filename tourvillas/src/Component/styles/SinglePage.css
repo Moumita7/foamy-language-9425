@@ -1,0 +1,68 @@
+.flexdiv{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 20px;
+}
+.sli{
+    /* border: 1px solid red; */
+    width: 50%;
+    /* w="30%" mt="80" display="flex" flexDir="column" justifyContent="flex-start" */
+}
+
+.imgdiv{
+    /* border: 1px solid blue; */
+    width: 60%;
+}
+.imgdiv>img{
+    width: 100%;
+
+}
+.textdiv{
+width: 50%;
+padding: 10px;
+/* border: 1px solid rgb(0, 255, 38); */
+
+}
+.frmdiv{
+    /* border: 1px solid rgb(247, 0, 255); */
+width: 35%;
+}
+.frm{
+    /* border: 1px solid rgb(255, 166, 0); */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 80%;
+    padding: 20px;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slt{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.dslt{
+    /* width: 100; */
+    padding: 4px;
+    margin-bottom: 10px;
+}
+.btnn{
+    margin-top: 20px;
+    padding: 10px 54px;
+    background-color: #3c92e8;
+    border: none;
+    color: #ffffff;
+}
+/* .seDiv>div{
+    display: flex;
+} */
+
+
+.tx{
+    font-family: ProximaNova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;;
+}

@@ -17,31 +17,31 @@ const Slidertwo = () => {
         };
         return (
           <div className="top" >
-          <h2>Top Destinations</h2>
+          <h2>Vacation Ideas</h2>
          
             <Slider {...settings}>
               <div className="card">
               <div>
-               <img className="imgg" width="100%" height='200px' src="https://res.klook.com/image/upload/fl_lossy.progressive,w_800,c_fill,q_85/Mobile/City/o7zyedk7po4liguigvzs.jpg" alt='df'/>
-               <h2 className="textt">Goa Holiday Homes</h2>
+               <img className="imgg" width="100%" height='200px' src="https://d2vcelvjdj7n25.cloudfront.net/media/property_photos/image_640x960/26263307/rsz_malee_sala_mob_thumbnail.jpeg" alt='df'/>
+               <h2 className="textt">Phuket's Best Pool Villas</h2>
               </div>
               </div>
               <div className="card">
               <div>
                <img className="imgg" width="100%" height='200px' src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/08/shutterstock_599364767.jpg" alt='df'/>
-               <h2 className="textt">Galle Holiday Homes</h2>
+               <h2 className="textt">Galle Villas</h2>
               </div>
               </div>
               <div className="card">
               <div>
                <img className="imgg" width="100%" height='200px' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVxwQX1_ekaCFHs2-mypbxQvnZ3ZO2_QwrTQ&usqp=CAU" alt='df'/>
-               <h2 className="textt">Phuket Holiday Homes</h2>
+               <h2 className="textt">Phuket Holiday Villas</h2>
               </div>
               </div>
               <div className="card">
               <div>
                <img className="imgg" width="100%" height='200px' src="https://res.klook.com/image/upload/fl_lossy.progressive,w_800,c_fill,q_85/Mobile/City/o7zyedk7po4liguigvzs.jpg" alt='df'/>
-               <h2 className="textt">Goa Holiday Homes</h2>
+               <h2 className="textt">Goa Villas</h2>
               </div>
               </div>
               <div className="card">
